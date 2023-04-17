@@ -479,5 +479,5 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 * How many string objects are created by the execution of the last line of the script (`106-line5.txt`)
 ***
 ## Author
-* **[The_quadzilla](https://github.com/nyaberi-mayaka)**
+* **[CyrusMuthui](https://github.com/CyrusMuthui/alx-higher_level_programming/tree/master/0x09-python-everything_is_object)**
 ***
