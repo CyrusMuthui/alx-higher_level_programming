@@ -1,20 +1,15 @@
 #!/usr/bin/python3
-"""module that prints a square with the character #."""
+"""Printing square"""
 
 
 def print_square(size):
-    """Prints a square with the character #
-    Checks for logical and Type errors and raises the corresponding
-    Exceptions
-    Args:
-        size (int): The length of the square
-            Must be an integer greater or equal to zero
-    """
-    if not isinstance(size, int):
+    """Prints a square with the character '#'"""
+    if type(size) != int:
         raise TypeError("size must be an integer")
-
     if size < 0:
         raise ValueError("size must be >= 0")
-
-    for i in range(size):
-        print(size * "#")
+    for x in range(size):
+        for y in range(size):
+            print("#", end='')
+        print()
+        
