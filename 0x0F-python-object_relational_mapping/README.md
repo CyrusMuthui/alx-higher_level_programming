@@ -10,3 +10,7 @@ The biggest difference is: no more SQL queries! Indeed, the purpose of an ORM is
 # Resources
 - [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)
 - [mysqlclient/MySQLdb documentation]()
+
+By:
+
+***Cyrus Muthui***
